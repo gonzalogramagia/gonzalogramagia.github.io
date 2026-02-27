@@ -33,6 +33,15 @@ type SocialLink = {
 
 export const PROJECTS_EN: Project[] = [
   {
+    name: 'Apex Search',
+    description:
+      'Search engine for a B2B telecommunications technical scripting knowledge base. Designed to quickly find solutions and streamline support workflows 🔍 Tech Stack: React, TypeScript and Tailwind.',
+    link: 'https://apexsearch.onrender.com/',
+    image: '/apexsearch.png',
+    github: 'https://github.com/gonzalogramagia/apex',
+    id: 'project_apex_search',
+  },
+  {
     name: 'Entrenar.app',
     description:
       'Originally started as a training platform for UNC students. Focused on stability, security, and a smooth user experience 💪 Tech Stack: Built with Go, React, and Supabase.',
@@ -71,6 +80,15 @@ export const PROJECTS_EN: Project[] = [
 ]
 
 export const PROJECTS_ES: Project[] = [
+  {
+    name: 'Apex Search',
+    description:
+      'Buscador de scripting técnico para resolver problemas de telecomunicaciones de clientes B2B. Diseñado para encontrar soluciones rápidamente y optimizar los flujos de soporte 🔍 Construido con React, TypeScript y Tailwind.',
+    link: 'https://apexsearch.onrender.com/',
+    image: '/apexsearch.png',
+    github: 'https://github.com/gonzalogramagia/apex',
+    id: 'project_apex_search',
+  },
   {
     name: 'Entrenar.app',
     description:
