@@ -35,8 +35,8 @@ export const PROJECTS_EN: Project[] = [
   {
     name: 'Apex Search',
     description:
-      'Search engine for a B2B telecommunications technical scripting knowledge base. Designed to quickly find solutions and streamline support workflows 🔍 Tech Stack: React, TypeScript and Tailwind.',
-    link: 'https://apexsearch.onrender.com/',
+      'Search engine for a B2B telecommunications technical scripting knowledge base. Designed to quickly find solutions and streamline support workflows 🔎 Tech Stack: React, TypeScript and Tailwind.',
+    link: 'https://apexsearch.vercel.app/en',
     image: '/apexsearch.png',
     github: 'https://github.com/gonzalogramagia/apex',
     id: 'project_apex_search',
@@ -83,8 +83,8 @@ export const PROJECTS_ES: Project[] = [
   {
     name: 'Apex Search',
     description:
-      'Buscador de scripting técnico para resolver problemas de telecomunicaciones de clientes B2B. Diseñado para encontrar soluciones rápidamente y optimizar los flujos de soporte 🔍 Construido con React, TypeScript y Tailwind.',
-    link: 'https://apexsearch.onrender.com/',
+      'Buscador de scripting técnico para resolver problemas de telecomunicaciones de clientes B2B. Diseñado para encontrar soluciones rápidamente y optimizar los flujos de soporte 🔎 Construido con React, TypeScript y Tailwind.',
+    link: 'https://apexsearch.vercel.app',
     image: '/apexsearch.png',
     github: 'https://github.com/gonzalogramagia/apex',
     id: 'project_apex_search',
@@ -135,7 +135,8 @@ export const WORK_EXPERIENCE_EN: WorkExperience[] = [
     end: '2026',
     link: '/work/b2b-telecommunications-technical-support',
     id: 'work3',
-    description: 'Technical support for enterprise-level telecommunications accounts.',
+    description:
+      'Technical support for enterprise-level telecommunications accounts.',
   },
   {
     company: 'Catsule Corp',
@@ -144,7 +145,8 @@ export const WORK_EXPERIENCE_EN: WorkExperience[] = [
     end: '2025',
     link: '/work/full-stack-developer',
     id: 'work1',
-    description: 'Software development company specializing in custom web solutions.',
+    description:
+      'Software development company specializing in custom web solutions.',
   },
   {
     company: 'Stämm',
@@ -153,7 +155,8 @@ export const WORK_EXPERIENCE_EN: WorkExperience[] = [
     end: '2024',
     link: '/work/help-desk-specialist',
     id: 'work2',
-    description: 'Biotech startup developing next-gen biomanufacturing technologies.',
+    description:
+      'Biotech startup developing next-gen biomanufacturing technologies.',
   },
 ]
 
@@ -165,7 +168,8 @@ export const WORK_EXPERIENCE_ES: WorkExperience[] = [
     end: '2026',
     link: '/es/work/b2b-telecommunications-technical-support',
     id: 'work3',
-    description: 'Soporte técnico para cuentas de telecomunicaciones de nivel empresarial.',
+    description:
+      'Soporte técnico para cuentas de telecomunicaciones de nivel empresarial.',
   },
   {
     company: 'Catsule Corp',
@@ -195,7 +199,8 @@ export const EDUCATION_EN: WorkExperience[] = [
     end: 'Present',
     link: 'https://undef.edu.ar/fadena/carreras-de-grado/licciberdefensa/',
     id: 'edu1',
-    description: 'Argentinian university specializing in defense and security studies.',
+    description:
+      'Argentinian university specializing in defense and security studies.',
   },
   {
     company: 'Universidad Nacional de Córdoba',
@@ -204,7 +209,8 @@ export const EDUCATION_EN: WorkExperience[] = [
     end: '2025',
     link: 'https://www.famaf.unc.edu.ar/academica/grado/licenciatura-en-ciencias-de-la-computaci%C3%B3n/',
     id: 'edu2',
-    description: 'Oldest university in Argentina, renowned for science and technology.',
+    description:
+      'Oldest university in Argentina, renowned for science and technology.',
   },
   {
     company: 'Boot.dev',
@@ -213,7 +219,8 @@ export const EDUCATION_EN: WorkExperience[] = [
     end: '2024',
     link: 'https://boot.dev/u/gonza',
     id: 'edu3',
-    description: 'Hands-on computer science curriculum focused on backend development.',
+    description:
+      'Hands-on computer science curriculum focused on backend development.',
   },
   {
     company: 'Grow with Google',
@@ -231,7 +238,8 @@ export const EDUCATION_EN: WorkExperience[] = [
     end: '2022',
     link: 'https://scrimba.com/home',
     id: 'edu4',
-    description: 'Interactive learning platform for frontend and fullstack development.',
+    description:
+      'Interactive learning platform for frontend and fullstack development.',
   },
 ]
 
@@ -243,7 +251,8 @@ export const EDUCATION_ES: WorkExperience[] = [
     end: 'Presente',
     link: 'https://undef.edu.ar/fadena/carreras-de-grado/licciberdefensa/',
     id: 'edu1',
-    description: 'Universidad nacional especializada en estudios de defensa y seguridad.',
+    description:
+      'Universidad nacional especializada en estudios de defensa y seguridad.',
   },
   {
     company: 'Universidad Nacional de Córdoba',
@@ -252,7 +261,8 @@ export const EDUCATION_ES: WorkExperience[] = [
     end: '2025',
     link: 'https://www.famaf.unc.edu.ar/academica/grado/licenciatura-en-ciencias-de-la-computaci%C3%B3n/',
     id: 'edu2',
-    description: 'La universidad más antigua de Argentina, reconocida en ciencia y tecnología.',
+    description:
+      'La universidad más antigua de Argentina, reconocida en ciencia y tecnología.',
   },
   {
     company: 'Boot.dev',
@@ -261,7 +271,8 @@ export const EDUCATION_ES: WorkExperience[] = [
     end: '2024',
     link: 'https://boot.dev/u/gonza',
     id: 'edu3',
-    description: 'Plan de estudios prácticos en computación, centrado en el desarrollo backend.',
+    description:
+      'Plan de estudios prácticos en computación, centrado en el desarrollo backend.',
   },
   {
     company: 'Grow with Google',
@@ -279,40 +290,44 @@ export const EDUCATION_ES: WorkExperience[] = [
     end: '2022',
     link: 'https://scrimba.com/home',
     id: 'edu4',
-    description: 'Plataforma de aprendizaje interactivo en desarrollo frontend y fullstack.',
+    description:
+      'Plataforma de aprendizaje interactivo en desarrollo frontend y fullstack.',
   },
 ]
 
 export const BLOG_POSTS_EN: BlogPost[] = [
   {
     title: 'Hacking Through the Holidays: My Advent of Cyber 2025 Experience',
-    description: 'A daily journey through TryHackMe\'s cybersecurity challenges, learning new skills and solving exercises.',
+    description:
+      "A daily journey through TryHackMe's cybersecurity challenges, learning new skills and solving exercises.",
     link: '/blog/advent-of-cyber-2025',
     uid: 'blog-1',
   },
   {
     title: 'Solving One Coding Challenge at a Time: My Codeforces Experience',
-    description: 'A weekend journey into competitive programming as a serious hobby (E-sport).',
+    description:
+      'A weekend journey into competitive programming as a serious hobby (E-sport).',
     link: '/blog/codeforces-journey',
     uid: 'blog-2',
   },
-
 ]
 
 export const BLOG_POSTS_ES: BlogPost[] = [
   {
     title: 'Hackeando en las Fiestas: Mi Experiencia en Advent of Cyber 2025',
-    description: 'Un viaje diario a través de los desafíos de ciberseguridad de TryHackMe, aprendiendo nuevas habilidades y resolviendo ejercicios.',
+    description:
+      'Un viaje diario a través de los desafíos de ciberseguridad de TryHackMe, aprendiendo nuevas habilidades y resolviendo ejercicios.',
     link: '/es/blog/advent-of-cyber-2025',
     uid: 'blog-1',
   },
   {
-    title: 'Resolviendo Un Desafío de Programación a la Vez: Mi Experiencia en Codeforces',
-    description: 'La programación competitiva como hobby serio (e-sport) de fin de semana.',
+    title:
+      'Resolviendo Un Desafío de Programación a la Vez: Mi Experiencia en Codeforces',
+    description:
+      'La programación competitiva como hobby serio (e-sport) de fin de semana.',
     link: '/es/blog/codeforces-journey',
     uid: 'blog-2',
   },
-
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
@@ -337,6 +352,9 @@ export const SOCIAL_LINKS: SocialLink[] = [
 export const EMAIL = 'gonzalogramagia@gmail.com'
 
 export const PROJECTS = { en: PROJECTS_EN, es: PROJECTS_ES }
-export const WORK_EXPERIENCE = { en: WORK_EXPERIENCE_EN, es: WORK_EXPERIENCE_ES }
+export const WORK_EXPERIENCE = {
+  en: WORK_EXPERIENCE_EN,
+  es: WORK_EXPERIENCE_ES,
+}
 export const EDUCATION = { en: EDUCATION_EN, es: EDUCATION_ES }
 export const BLOG_POSTS = { en: BLOG_POSTS_EN, es: BLOG_POSTS_ES }
