@@ -129,20 +129,10 @@ export const PROJECTS_ES: Project[] = [
 
 export const WORK_EXPERIENCE_EN: WorkExperience[] = [
   {
-    company: 'Apex America',
-    title: 'B2B Telecommunications Technical Support Specialist',
-    start: '2026',
-    end: '2026',
-    link: '/work/b2b-telecommunications-technical-support',
-    id: 'work3',
-    description:
-      'Technical support for enterprise-level telecommunications accounts.',
-  },
-  {
     company: 'Catsule Corp',
     title: 'Full Stack Developer',
     start: '2024',
-    end: '2025',
+    end: 'Present',
     link: '/work/full-stack-developer',
     id: 'work1',
     description:
@@ -162,20 +152,10 @@ export const WORK_EXPERIENCE_EN: WorkExperience[] = [
 
 export const WORK_EXPERIENCE_ES: WorkExperience[] = [
   {
-    company: 'Apex America',
-    title: 'Especialista en Soporte Técnico de Telecomunicaciones B2B',
-    start: '2026',
-    end: '2026',
-    link: '/es/work/b2b-telecommunications-technical-support',
-    id: 'work3',
-    description:
-      'Soporte técnico para cuentas de telecomunicaciones de nivel empresarial.',
-  },
-  {
     company: 'Catsule Corp',
     title: 'Desarrollador Full Stack',
     start: '2024',
-    end: '2025',
+    end: 'Presente',
     link: '/es/work/full-stack-developer',
     id: 'work1',
     description: 'Agencia de desarrollo web independiente.',
