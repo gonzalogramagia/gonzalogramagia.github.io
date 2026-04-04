@@ -24,6 +24,7 @@ type BlogPost = {
   description: string
   link: string
   uid: string
+  date: string
 }
 
 type SocialLink = {
@@ -274,7 +275,6 @@ export const EDUCATION_ES: WorkExperience[] = [
       'Plataforma de aprendizaje interactivo en desarrollo frontend y fullstack.',
   },
 ]
-
 export const BLOG_POSTS_EN: BlogPost[] = [
   {
     title: 'Hacking Through the Holidays: My Advent of Cyber 2025 Experience',
@@ -282,6 +282,7 @@ export const BLOG_POSTS_EN: BlogPost[] = [
       "A daily journey through TryHackMe's cybersecurity challenges, learning new skills and solving exercises.",
     link: '/blog/advent-of-cyber-2025',
     uid: 'blog-1',
+    date: 'Dec 28, 2025',
   },
   {
     title: 'Solving One Coding Challenge at a Time: My Codeforces Experience',
@@ -289,6 +290,15 @@ export const BLOG_POSTS_EN: BlogPost[] = [
       'A weekend journey into competitive programming as a serious hobby (E-sport).',
     link: '/blog/codeforces-journey',
     uid: 'blog-2',
+    date: 'Jan 23, 2026',
+  },
+  {
+    title: '30 Days Mission: The Journey Begins – Building an Educational Platform',
+    description:
+      'The challenge: Build a comprehensive educational platform from scratch in just 30 days. Meet the team and our action plan.',
+    link: '/blog/30-days-mission',
+    uid: 'blog-3',
+    date: 'Apr 04, 2026',
   },
 ]
 
@@ -299,6 +309,7 @@ export const BLOG_POSTS_ES: BlogPost[] = [
       'Un viaje diario a través de los desafíos de ciberseguridad de TryHackMe, aprendiendo nuevas habilidades y resolviendo ejercicios.',
     link: '/es/blog/advent-of-cyber-2025',
     uid: 'blog-1',
+    date: '28 de Dic, 2025',
   },
   {
     title:
@@ -307,6 +318,15 @@ export const BLOG_POSTS_ES: BlogPost[] = [
       'La programación competitiva como hobby serio (e-sport) de fin de semana.',
     link: '/es/blog/codeforces-journey',
     uid: 'blog-2',
+    date: '23 de Ene, 2026',
+  },
+  {
+    title: '30 Days Mission: El Comienzo – Construyendo una Plataforma Educativa',
+    description:
+      'El desafío: Desarrollar una plataforma integral desde cero en solo 30 días. Conoce al equipo y nuestro plan de acción.',
+    link: '/es/blog/30-days-mission',
+    uid: 'blog-3',
+    date: 'Abr 04, 2026',
   },
 ]
 
