@@ -33,13 +33,13 @@ type SocialLink = {
 
 export const PROJECTS_EN: Project[] = [
   {
-    name: 'Apex Search',
+    name: 'Hoy.today',
     description:
-      'Search engine for a B2B telecommunications technical scripting knowledge base. Designed to quickly find solutions and streamline support workflows 🔎 Tech Stack: React, TypeScript and Tailwind.',
-    link: 'https://apexsearch.vercel.app/en',
-    image: '/apexsearch.png',
-    github: 'https://github.com/gonzalogramagia/apex',
-    id: 'project_apex_search',
+      'A comprehensive productivity dashboard for managing notes, tasks, countdowns, and custom shortcuts. All data is persisted locally via browser storage, ensuring privacy and speed ⚡ Tech Stack: React, TypeScript and Tailwind.',
+    link: 'https://hoy.today/en',
+    image: '/hoy.today.png',
+    github: 'https://github.com/gonzalogramagia/today',
+    id: 'project_hoy_today',
   },
   {
     name: 'Entrenar.app',
@@ -56,38 +56,38 @@ export const PROJECTS_EN: Project[] = [
       'E-commerce platform with a custom mix builder. Designed to be intuitive and fast. Prioritizes a smooth, secure navigation and a modern interface ⚡ Tech Stack: Next.js, TypeScript, and Tailwind.',
     link: 'https://moovimiento.com/en',
     image: '/moovimiento-com.png',
-    github: 'https://github.com/moovimiento/mas',
+    github: 'https://github.com/moovimiento/snack-builder',
     id: 'project3',
   },
   {
-    name: 'Hoy.today',
+    name: 'Apex Search',
     description:
-      'A comprehensive productivity dashboard for managing notes, tasks, countdowns, and custom shortcuts. All data is persisted locally via browser storage, ensuring privacy and speed ⚡ Tech Stack: React, TypeScript and Tailwind.',
-    link: 'https://hoy.today/en',
-    image: '/hoy.today.png',
-    github: 'https://github.com/gonzalogramagia/today',
-    id: 'project_hoy_today',
+      'Search engine for a B2B telecommunications technical scripting knowledge base. Designed to quickly find solutions and streamline support workflows 🔎 Tech Stack: React, TypeScript and Tailwind.',
+    link: 'https://gonzalogramagia.github.io/apex-search/en',
+    image: '/apexsearch.png',
+    github: 'https://github.com/gonzalogramagia/apex',
+    id: 'project_apex_search',
   },
-  {
-    name: 'Milemojis.com',
-    description:
-      'A minimalist emoji picker designed for speed and accessibility. Developed with a focus on clean architecture and UX, featuring custom emojis and bilingual support 😎 Tech Stack: React, TypeScript and Tailwind.',
-    link: 'https://milemojis.com/en',
-    image: '/milemojis-com.png',
-    github: 'https://github.com/gonzalogramagia/emojis',
-    id: 'project5',
-  },
+  // {
+  //   name: 'Milemojis.com',
+  //   description:
+  //     'A minimalist emoji picker designed for speed and accessibility. Developed with a focus on clean architecture and UX, featuring custom emojis and bilingual support 😎 Tech Stack: React, TypeScript and Tailwind.',
+  //   link: 'https://milemojis.com/en',
+  //   image: '/milemojis-com.png',
+  //   github: 'https://github.com/gonzalogramagia/emojis',
+  //   id: 'project5',
+  // },
 ]
 
 export const PROJECTS_ES: Project[] = [
   {
-    name: 'Apex Search',
+    name: 'Hoy.today',
     description:
-      'Buscador de scripting técnico para resolver problemas de telecomunicaciones de clientes B2B. Diseñado para encontrar soluciones rápidamente y optimizar los flujos de soporte 🔎 Construido con React, TypeScript y Tailwind.',
-    link: 'https://apexsearch.vercel.app',
-    image: '/apexsearch.png',
-    github: 'https://github.com/gonzalogramagia/apex',
-    id: 'project_apex_search',
+      'Un dashboard de productividad integral para gestionar notas, tareas, cuentas regresivas y atajos personalizados. Con emojis listos para usar y soporte bilingüe. Todos los datos se guardan localmente para garantizar privacidad y velocidad ⚡ Construido con React, TypeScript y Tailwind.',
+    link: 'https://hoy.today',
+    image: '/hoy.today.png',
+    github: 'https://github.com/gonzalogramagia/today',
+    id: 'project_hoy_today',
   },
   {
     name: 'Entrenar.app',
@@ -104,27 +104,27 @@ export const PROJECTS_ES: Project[] = [
       'Plataforma e-commerce con un armador de mixes personalizados. Diseñada para ser intuitiva y rápida. Prioriza una navegación fluida, a la vez que segura, y una interfaz moderna ⚡ Construido con Next.js, TypeScript y Tailwind.',
     link: 'https://moovimiento.com',
     image: '/moovimiento-com.png',
-    github: 'https://github.com/moovimiento/mas',
+    github: 'https://github.com/moovimiento/snack-builder',
     id: 'project3',
   },
   {
-    name: 'Hoy.today',
+    name: 'Apex Search',
     description:
-      'Un dashboard de productividad integral para gestionar notas, tareas, cuentas regresivas y atajos personalizados. Con emojis listos para usar y soporte bilingüe. Todos los datos se guardan localmente para garantizar privacidad y velocidad ⚡ Construido con React, TypeScript y Tailwind.',
-    link: 'https://hoy.today',
-    image: '/hoy.today.png',
-    github: 'https://github.com/gonzalogramagia/today',
-    id: 'project_hoy_today',
+      'Buscador de scripting técnico para resolver problemas de telecomunicaciones de clientes B2B. Diseñado para encontrar soluciones rápidamente y optimizar los flujos de soporte 🔎 Construido con React, TypeScript y Tailwind.',
+    link: 'https://gonzalogramagia.github.io/apex-search',
+    image: '/apexsearch.png',
+    github: 'https://github.com/gonzalogramagia/apex',
+    id: 'project_apex_search',
   },
-  {
-    name: 'Milemojis.com',
-    description:
-      'Un buscador de emojis minimalista diseñado para ser veloz y accesible. Desarrollado con un fuerte enfoque en arquitectura limpia y experiencia de usuario, con la posibilidad de sumar emojis personalizados y soporte bilingüe 😎 Construido con React, TypeScript y Tailwind.',
-    link: 'https://milemojis.com',
-    image: '/milemojis-com.png',
-    github: 'https://github.com/gonzalogramagia/emojis',
-    id: 'project5',
-  },
+  // {
+  //   name: 'Milemojis.com',
+  //   description:
+  //     'Un buscador de emojis minimalista diseñado para ser veloz y accesible. Desarrollado con un fuerte enfoque en arquitectura limpia y experiencia de usuario, con la posibilidad de sumar emojis personalizados y soporte bilingüe 😎 Construido con React, TypeScript y Tailwind.',
+  //   link: 'https://milemojis.com',
+  //   image: '/milemojis-com.png',
+  //   github: 'https://github.com/gonzalogramagia/emojis',
+  //   id: 'project5',
+  // },
 ]
 
 export const WORK_EXPERIENCE_EN: WorkExperience[] = [
